@@ -23,8 +23,8 @@ public class ForExample {
 	
 		// 1 ~ 10 범위의 수 합계
 		sum = 0;
-		for( int i = 1; i <= 9; i++) {
-			sum = sum + i
+		for( int j = 1; j <= 9; j++) {
+			sum = sum + j;
 		}
 		// 1 = 0 + 1;
         // 3 = 1 + 2;
