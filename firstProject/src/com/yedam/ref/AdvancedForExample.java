@@ -12,7 +12,7 @@ public class AdvancedForExample {
 			System.out.println("점수를 입력하세요.");
 			scores[i] = scn.nextInt();
 		}
-
+ 
 		int sum = 0;
 		double avg = 0;
 		int maxVal = 0;
@@ -20,7 +20,7 @@ public class AdvancedForExample {
 		for (int num : scores) {
 			if(num>=maxVal) {
 				maxVal = num;
-			}
+			} 
 			sum += num;// 정수
 		} 
 		avg = (double) sum / scores.length; // 정수

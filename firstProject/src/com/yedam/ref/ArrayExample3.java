@@ -9,7 +9,7 @@ public class ArrayExample3 {
 					   };
 		for (int j = 0; j < iAry.length; j++) {
 			for (int i = 0; i < iAry[j].length; i++) {
-				System.out.print(iAry[j][i] + " ");
+		 		System.out.print(iAry[j][i] + " ");
 			}
 			System.out.println();
 		}

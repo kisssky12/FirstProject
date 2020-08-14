@@ -15,5 +15,5 @@ public class BitOperatorExample { //비트연산자
 		System.out.println(result);
 		
 	}
-
+ 
 }

@@ -1,7 +1,7 @@
 package com.yedam.exam;
 
 import java.util.Scanner; //이것이 있어야지 스캐너 사용가능
-
+ 
 public class Exercise07 {
 	public static void main(String[] args) {
 		boolean run = true;

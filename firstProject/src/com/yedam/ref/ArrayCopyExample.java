@@ -19,7 +19,7 @@ public class ArrayCopyExample {
 
 		for (int i = 0; i < origAry.length; i++) {
 			System.out.println(cpyAry[i]);
-		}
+		} 
 		
 		// 확장 for() 이렇게 적는게 좀 편함
 		for(int num : cpyAry) {

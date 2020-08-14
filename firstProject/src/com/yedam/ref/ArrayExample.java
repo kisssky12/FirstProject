@@ -3,7 +3,7 @@ package com.yedam.ref;
 public class ArrayExample {
 	public static void main(String[] args) {
 		int score1 = 10, score2 = 20, score3 = 30, score4 = 40;
-		score2 = 50;
+		score2 = 50; 
 		int sum = score1 + score2 + score3 + score4;
 		// []배열 선언, 배열은 배열타입의 변수 이름이 필요
 		int[] intAry = { 10, 20, 30, 40, 50 };
@@ -17,7 +17,7 @@ public class ArrayExample {
 		}
 		System.out.println("sum : " + sum);
 
-		double[] dAry = { 2.3, 4.3 };
+		double[] dAry = { 2.3, 4.3 }; 
 
 		String[] sAry = { "hello", "world", "nice", "good" };
 		for (int i = 0; i < sAry.length; i++) {
