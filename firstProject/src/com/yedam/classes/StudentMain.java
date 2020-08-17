@@ -8,7 +8,8 @@ public class StudentMain {
 		s1.setDep("역사");
 		s1.setNum(111);
 		System.out.println(s1.getnum() + " " + s1.getname() + " " + s1.getdep());
-
+		
+		
 		Student s2 = new Student(222);
 		s2.setName("김유신");
 		s2.setDep("수학");

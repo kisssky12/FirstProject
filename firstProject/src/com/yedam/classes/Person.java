@@ -7,7 +7,7 @@ public class Person { // 필드는 속성값을 담당
 
 	// 생성자 || 메소드
 	public Person() {
-		name = "anonymous"; 
+		name = Messages.getString("Person.0");  //$NON-NLS-1$
 		age = 10000; 
 	}
 
@@ -21,8 +21,8 @@ public class Person { // 필드는 속성값을 담당
 	}
 
 	public String introduse() { // 메소드는 어떤 기능들을 수행한다.
-		return "이름은" + name + "나이는"
-				+ "" + age;
+		return Messages.getString("Person.1") + name + Messages.getString("Person.2") //$NON-NLS-1$ //$NON-NLS-2$
+				+ Messages.getString("Person.3") + age; //$NON-NLS-1$
 	}
 
 	public String getName() {

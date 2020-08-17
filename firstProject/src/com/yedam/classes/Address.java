@@ -40,11 +40,11 @@ public class Address {
 				System.out.println("내용이 추가되었습니다.");
 
 			} else if (menu == 2) {
-				System.out.println("리스트임");
-				input1, input2, input3 = scn.nextLine();
-				scn.nextLine();
+//				System.out.println("리스트임");
+//				input1, input2, input3 = scn.nextLine();
+//				scn.nextLine();      
 			}
-//	         else if(menu == 3) {
+	         else if(menu == 3) {
 //	            System.out.println("조회할 이름을 입력하시오.");
 //	         }
 //	         else if(menu == 4) {
@@ -57,5 +57,5 @@ public class Address {
 		System.out.println("프로그램이 종료됩니다.");
 
 	}
-
+	}
 }
