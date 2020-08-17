@@ -86,16 +86,17 @@ public class BankApplication {
 
 	private static Account findAccount(String ano) {
 		AccountBank accountbank = null;
-		//클래스명 변수 = new 클래스명(매개)
-		for(int i = 0; i < accountArray.length; i++ ) {
-			if(accountArray[i] != null) {
-				if(accountArray[i].getAno() == ano) {
-					
+		// 클래스명 변수 = new 클래스명(매개)
+		for (int i = 0; i < accountArray.length; i++) {
+			if (accountArray[i] != null) {
+				if (accountArray[i].getAno() == ano) {
+					accountbank = accountArray[i];
+					break;
 				}
 			}
 		}
-		
+
 		return null;
-		
+
 	}
 }
